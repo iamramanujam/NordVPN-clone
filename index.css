@@ -1,0 +1,257 @@
+/* style.css */
+
+html * {
+
+
+    font-family: "Montserrat", serif;
+    box-sizing: border-box;
+
+
+}
+
+body {
+
+    padding: 0 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3em;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0 5em;
+    display: flex;
+
+}
+
+nav ul li {
+    margin-right: 1.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.9em;
+}
+
+header .buttons {
+    display: flex;
+    margin-right: 5em;
+}
+
+header button {
+    padding: 10px 20px;
+    margin: 0.3em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.get-nordvpn {
+    background-color: #FF4545;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.logo {
+
+    width: 1.3em;
+    margin-right: 3em;
+
+
+
+}
+
+
+
+main .intro {
+
+    display: flex;
+
+}
+
+.intro .text {
+
+    width: 49%;
+    padding: 4%;
+    margin-left: 3%;
+}
+
+.intro .text h1 {
+    font-weight: bold;
+
+    /* width: 100%; */
+    font-size: 2.9em;
+    margin-top: 30%;
+    padding: 2% 0;
+
+
+}
+
+.intro .text p {
+
+    line-height: 1.2;
+    font-size: 0.9em;
+    padding: 0.2em;
+    margin: 0.5em 0;
+}
+
+.intro .image {
+    margin-top: 2%;
+}
+
+
+.intro .text button {
+    border-radius: 50px;
+    padding: 8px 15px;
+    margin: 0.3em;
+    margin-left: 0;
+}
+
+.get-nord-button {
+    background-color: #FF4545;
+    color: #fff;
+}
+
+.about-support {
+
+    text-align: center;
+    border: 1px solid black;
+}
+
+.intro .logo {
+
+    margin-right: 0.2em;
+    margin-left: 0.4em;
+    width: 2.8%;
+
+}
+
+.intro span {
+
+    margin-top: 0.2em;
+    font-size: 0.7em;
+}
+
+.intro-bottom {
+
+    display: flex;
+    margin-top: 0.5em;
+
+}
+
+
+
+main .about-vpn {
+
+    margin: 4em 5em;
+    text-align: left;
+    padding: 2em;
+}
+
+main .about-vpn-text h2 {
+
+    font-size: 2.2em;
+    font-weight: bolder;
+}
+
+main .about-vpn-text p {
+    font-weight: bold;
+    width: 90%;
+    font-size: 1.5em;
+    padding: 0.3em 0;
+    line-height: 1.5;
+}
+
+
+.more-about-vpn {
+
+    display: flex;
+
+}
+
+
+
+.more-about-vpn-text {
+
+    width: 70%;
+    padding: 4em 0;
+    margin-left: 0;
+}
+
+
+.more-about-vpn-text h2 {
+
+    font-size: 2.2em;
+    padding: 0.5em 0;
+}
+
+.more-about-vpn-image img {
+
+    width: 95%;
+
+    margin-top: 9em;
+    padding: 3em;
+
+}
+
+.more-about-vpn-text span {
+
+    font-weight: bold;
+    display: block;
+    margin: 1.4em 0;
+
+}
+
+.more-about-vpn-text p {
+
+    margin-top: 1.2em;
+    line-height: 1.5;
+}
+
+.about-suport p,
+.about-suport h2 {
+
+    text-align: center;
+    margin: 0 auto;
+
+
+}
+
+
+.about-suport h2 {
+
+    width: 57%;
+
+    font-size: 2.3em;
+    padding: 0.4em;
+    font-weight: bold;
+}
+
+.about-suport p {
+
+    width: 55%;
+    font-size: 1.2em;
+    line-height: 1.2;
+
+}
+
+.supported-section {
+
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+
+}
+
+.supported-section img {
+
+
+    width: 2.5em;
+    margin-left: 2.4em;
+}
